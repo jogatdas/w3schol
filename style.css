@@ -1,0 +1,632 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Helvetica;
+}
+
+
+
+
+
+/*****manubar css start****/
+.manubar{
+    width: 100%;
+    height: 60px;
+    background-color:white;
+    box-shadow: 0px 0px 5px gray;
+    
+}
+
+.manulogo{
+    width: 10%;
+    height: 60px;
+    float: left;
+    line-height: 60px;
+    text-align: center;
+}
+.manulogo img{
+    width: 20%;
+}
+.manuitem{
+    width: 60%;
+    height: 60px;
+    float: left;
+}
+
+.manuitem ul li{
+    width: 120px;
+    float: left;
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+}
+.manuitem li a{
+    text-decoration: none;
+    color: black;
+}
+.manuitem ul li:hover{
+    background-color: green;
+}
+.manuitem ul li:hover a{
+    color: white;
+}
+.manuitem i{
+    font-size: 15px;
+    line-height: 60px;
+}
+.manuright{
+    width: 30%;
+    height: 60px;
+    float: right;
+    line-height: 60px;
+}
+.manuright button{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    background-color: #FFC0C7;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+.manuright small {
+    font-size: 10px;
+    font-weight: bold;
+}
+.manuright button:nth-child(6){
+    background-color: green;
+    color: white;
+}
+.manuright button:hover{
+    background-color: green;
+    color: white;
+}
+
+/***manubar css end*****/
+
+
+
+
+
+
+
+/***mobilemanu css start****/
+.mobilemanu{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    box-shadow: 0px 0px 5px gray;
+}
+.mobilelogo{
+    width: 10%;
+    height: 60px;
+    float: left;
+    line-height: 60px;
+}
+.mobilelogo img{
+    width: 80%;
+}
+.mobileitem{
+    width: 10%;
+    float: left;
+    height: 60px;
+}
+.mobileitem ul li{
+    width: 80px;
+    text-align: center;
+    list-style: none;
+    line-height: 60px;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.mobileitem li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+.mobileright{
+    width: 60%;
+    height: 60px;
+    float: left;
+    line-height: 60px;
+    text-align: center;
+    overflow: hidden;
+    margin-left: 10%;
+}
+.mobileright button{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    font-size: 12px;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+}
+
+.mobileitem ul li:hover{
+    background-color: green;
+}
+.mobileitem ul li:hover a{
+    color: white;
+}
+.mobilemanu{
+    display: none;
+}
+/*****mobile item css end***/
+
+
+
+
+
+/****respon css start***/
+.responmanut{
+    width: 100%;
+    height: auto;
+    background-color: #F3ECEA;
+    padding: 5% 0% 5% 0%;
+    text-align: center;
+}
+.responmanut .down{
+    float: right;
+    font-size: 20px;
+    margin-top: -5%;
+}
+
+
+.responmanut ul li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center ;
+    margin-top: 2%;
+}
+.responmanut li a{
+    text-decoration: none;
+    color: black;
+}
+/***responsive css end****/
+
+
+
+
+
+@media screen and (max-width:700px){
+    .manubar{
+        display: none;
+    }
+    .mobilemanu{
+        display: block;
+    }
+}
+
+
+
+.homecontin{
+    width: 100%;
+    height: auto;
+    background-color:#ccffcc;
+    text-align: center;
+
+}
+
+
+
+/****scrch css start*****/
+.wsholscrh{
+    width: 100%;
+    height: auto;
+    clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 80%, 100% 90%, 57% 87%, 0 98%, 0% 20%);
+    background-color: #282A35;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding-top: 5%;
+   padding-bottom: 8%;   
+   
+}
+.wsholscrh h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.wsholscrh p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFC0C7;
+}
+.wsholscrh .inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 40px;
+
+}
+.wsholscrh .inputs input{
+    width: 30%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0% 2%;
+}
+.wsholscrh .inputs i{
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    line-height: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.wsholscrh h5{
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.wsholscrh h5 a{
+    color: white;
+}
+@media screen and (max-width:700px){
+    .wsholscrh{
+        padding-bottom: 20%;
+    }
+}
+/*****serch css end *****/
+
+
+
+
+
+/****htmlscetion css start***/
+.htlmsecion{
+    width: 100%;
+    height: 400px;
+    background-color: #ccffcc;
+}
+
+.all-row{
+    padding: 3% 10% 5% 10%;
+}
+
+.all-row div div:nth-child(1) h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.all-row div div:nth-child(1) p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.all-row div div button{
+    background-color: red;
+    width: 200px;
+    height: 30px;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: green;
+    margin-top: 5%;
+    border-radius: 15px;
+    font-size: 14px;
+   
+}
+.all-row div div button:nth-child(5){
+    background-color: #ffff99;
+    color: black;
+}
+.all-row div div button:nth-child(7){
+    background-color: #282A35;
+
+}
+
+
+.all-row div:nth-child(2){
+    background-color:ghostwhite;
+    box-shadow: 0px 0px 8px gray;
+    text-align: left;
+    padding:2% 2%;
+
+}
+.all-row div:nth-child(2) button{
+    width: 200px;
+    height: 30px;
+    margin-top: 2%;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    color: white;
+    background-color: green;
+    font-size: 14px;
+}
+
+
+.all-row div:nth-child(2) h6{
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 3%;
+   
+}
+.all-row div:nth-child(2) div p{
+    font-size: 10px;
+    margin-top: -2%;
+}
+.all-row div:nth-child(2) div{
+    padding: 2% 1%;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px gray;
+    border-left: 2px solid green;
+}
+/***htmlsection css end****/
+@media screen and (max-width:700px){
+    .htlmsecion{
+        height: auto;
+    }
+    .all-row div:nth-child(2){
+        margin-top: 5%;
+    }
+}
+/****html section css end****/
+
+
+
+
+/***csssection css start****/
+.cssecion{
+    width: 100%;
+    height: 400px;
+    background-color:#ffff99;
+}
+@media screen and (max-width:700px){
+    .cssecion{
+        height: auto;
+    }
+    
+
+}
+/****css sction css end****/
+
+
+
+
+
+
+/*****javasriptsction css start****/
+.javasriptsction{
+    width: 100%;
+    height: 400px;
+    background-color:#333333;
+}
+@media screen and (max-width:700px){
+    .javasriptsction{
+        height: auto;
+    }
+}
+/*****javasriptsction css end****/
+
+
+
+/***pytysection css start***/
+.pytysection{
+    width: 100%;
+    height: 400px;
+    background-color:#ffffff;
+}
+@media screen and (max-width:700px){
+    .pytysection{
+        height: auto;
+    }
+
+}
+/****pytysection css end***/
+
+
+
+
+/*****sqlsction css start****/
+.sqlsction{
+    width: 100%;
+    height: 400px;
+    background-color: #99cccc;
+}
+@media screen and (max-width:700px){
+    .sqlsction{
+        height: auto;
+    }
+}
+/****sqlsction css end*****/
+
+
+
+
+
+
+
+
+/*****all langueg section css start****/
+.alllange{
+    width: 100%;
+    height: auto;
+    background-color: #333333;
+    text-align: center;
+    justify-content: center;
+  
+}
+.larg-row div div small{
+    font-size: 12px;
+    font-weight: bold;
+}
+.larg-row{
+    text-align: center;
+    justify-content: center !important;
+    margin-left: 8%;
+    padding: 5% 5%;
+}
+.larg-row div div{
+   margin-top: 5%;
+   padding: 5% 0%;
+
+  
+}
+.larg-row div div h1{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.larg-row div div p{
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.larg-row div div button{
+    width: 120px;
+    height: 30px;
+    background-color: #282A35;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    margin-top: 3%;
+}
+.sco-row{
+    margin-left: 8%;
+}
+.sco-row div div{
+    background-color: yellow;
+    margin: 8%;
+   
+}
+
+.corde{
+    width: 100%;
+    height: auto;
+    padding: 5% 5%;
+    background-color: #333333;
+
+}
+.corde h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.corde p{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.corde video{
+    border: 2px gray solid;
+    box-shadow: 0px 0px 5px white;
+  
+}
+.corde button{
+    width: 300px;
+    height: 20px;
+    font-size: 12px;
+    margin-top: 2%;
+    display: block;
+    margin-left: 26%;
+ 
+    background-color: green;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    
+
+}
+
+
+html{
+    overflow-x: hidden;
+}
+
+
+
+
+
+@media screen and (max-width:700px){
+    .larg-row{
+        margin-left: -1%;
+    }
+    .larg-row div div{
+        margin-top: 5%;
+        
+    }
+    .corde video{
+        width: 100%;
+        height: 300px;
+        box-shadow: 0px 0px 0px white;
+    }  
+    .corde button{
+        margin-left: 1%;
+    }
+}
+/*****all langueg section css end****/
+
+
+.spcesection{
+    width: 100%;
+    height: 700px;
+    background: url(img/consf.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+    
+}
+
+.capgrar{
+    width: 100%;
+    height: 100%;
+    background: rgba(#282A35,0.4);
+
+    
+    padding: 5% 5%;
+}
+.capgrar h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.capgrar p{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.capgrar button{
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+}
+.capgrar img{
+    width: 100%;
+    margin-top: 4%;
+}
+
+
